@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f7f7f7;
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
+.App {
+  
+  text-align: center;
+  margin-top: 4rem;
+
+}
+
+.board {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 18rem;
+  margin-top: 2rem;
+}
+
+.box {
+  width: 6rem;
+  height: 6rem;
+  border: 1px solid rgb(235,235,235);
+  display: inline-block;
+  border-radius: 13px;
+  box-shadow: 3px 6px 18px rgb(228,228,228);
+  text-align: center;
+  justify-content: center;
+  line-height: 6rem;
+}
+.playersArea {
+  display: flex;
+}
+.player{
+  flex: 1;
+}
+
+.sign {
+  font-size: 72px;
+  font-weight: bold; 
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.xSign {
+  color: #358cdf;
+}
+
+.oSign {
+  color: #f07d20;
+}
+
+.btn {
+  background-color: #358cdf;
+  color: #fff;
+  font-size: 1rem;
+  flex: 1;
+}
+

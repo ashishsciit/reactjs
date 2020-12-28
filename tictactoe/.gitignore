@@ -9,10 +9,7 @@
 /coverage
 
 # production
-/todos/build
-/todos/node_modules
-/tictactoe/build
-/tictactoe/node_modules
+/build
 
 # misc
 .DS_Store
