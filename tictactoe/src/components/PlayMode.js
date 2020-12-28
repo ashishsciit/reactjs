@@ -11,6 +11,7 @@ class PlayMode extends Component {
         fontSize: '72px',
         fontWeight: 'bold',
         marginBottom: '1rem',
+        
     }
     iconStyle = {
         padding: '5px',
